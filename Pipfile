@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+matplotlib = ">=1.5.1"
+numpy = ">=1.14.0"
+scipy = ">=0.19.1"
+wget = ">=3.2"
+mimir = "*"
+resampy = "*"
+sklearn = "*"
+django = "*"
+djangorestframework = "*"
+markdown = "*"
+django-filter = "*"
+django-environ = "*"
+decorator = "*"
+pre-commit = "*"
+
+[dev-packages]
+django-debug-toolbar-request-history = "*"
+django-debug-toolbar = "*"
+
+[requires]
+python_version = "3.11"
