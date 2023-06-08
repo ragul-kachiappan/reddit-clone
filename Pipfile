@@ -19,6 +19,7 @@ django-environ = "*"
 decorator = "*"
 pre-commit = "*"
 psycopg2-binary = "*"
+django-cors-headers = "*"
 
 [dev-packages]
 django-debug-toolbar-request-history = "*"
